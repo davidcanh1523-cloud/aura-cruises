@@ -30,7 +30,7 @@ const stats = {
 
 export default function Hero({ lang, onCTA, onDiscount }: HeroProps) {
   const [photoIdx, setPhotoIdx] = useState(0)
-  const [loaded, setLoaded] = useState(false)
+  const [loaded, setLoaded] = useState(true)
 
   useEffect(() => {
     setLoaded(true)
